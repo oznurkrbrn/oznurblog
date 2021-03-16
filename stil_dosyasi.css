@@ -2,7 +2,7 @@
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
-
+  
   width: 100%;
   background-repeat: no-repeat;
   background-size:0%;
@@ -98,4 +98,25 @@ html {
  opacity: 0.8;
  
 
+}
+div.polaroid {
+width: 284px;
+padding: 10px 10px 20px 10px;
+border: 1px solid #BFBFBF;
+background-color: white;
+box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+float: left;
+-ms-transform: rotate(7deg); /* IE 9 */
+-webkit-transform: rotate(7deg); /* Safari */
+transform: rotate(7deg);
+}
+
+div.rotate_left {
+float: left;
+-ms-transform: rotate(-8deg); /* IE 9 */
+-webkit-transform: rotate(-8deg); /* Safari */
+transform: rotate(-8deg);
 }
