@@ -9,12 +9,16 @@ body {
   
 }
 html { 
+  background: url(tane.jpg) no-repeat center center; 
   background-image: url(tane.jpg);
-  background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
     }
     .overlay {
       height: 100%;
-      width: 50%;
+      width: 25%;
       display: none;
       position: fixed;
       z-index: 1;
