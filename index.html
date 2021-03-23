@@ -81,7 +81,7 @@ html{
   .hrclass{
     size: 25%;width: 25%; margin-left:38%; background-color:mediumpurple" noshade="none"
   }
-  .imgclass{width: 80%;height: 70%;border-radius: 20px;position:relative;left:9%;}
+  .imgclass{width: 80%;height: 70%;border-radius: 20px;position:relative;margin-left:10%}
   .h1class{color:white;margin-left:30%;}
   .h2class{ color:white;margin-left:30%}
   .p1class{color:white;}
@@ -97,19 +97,19 @@ html{
 
 .letter {
     background: #fafafa;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 300px 25px rgba(222,198,122,0.7) inset;
-    width: 250px;
-    height: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 300px 25px rgba(222,198,122,0.3) inset;
+    width: 70%;
+    height: 10%;
     margin: 1.5% 50% auto;
-    left: -30%;
-    padding: 24px;
+   margin-left:10%;
+    padding: 5%;
     position: relative;
 }
 
 .letter:before, .letter:after {
     content: "";
     background: #fafafa;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2), inset 0 0 300px rgba(222,198,122,0.7);
+    box-shadow: 0 0 8px rgba(0,0,0,0.2), inset 0 0 300px rgba(222,198,122,0.3);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -157,10 +157,10 @@ top: -3px;
     <img class="pic" src="öznurr.jpeg" style="border-radius: 50%; width: 120px;height: 120px; margin-top:-50px;"/>
     <p style="color:white">ÖZNUR KARABURUN</p>
     <p style="color:white">Junior Software Engineer</p>
-    <a href="#">Hakkımda</a>
-    <a href="#">Becerilerim</a>
-    <a href="#">Hedeflerim</a>
-    <a href="#">İleişim</a>
+    <a href="#h1class">Hakkımda</a>
+    <a href="#h1class2">Becerilerim</a>
+    <a href="#h1class3">Hedeflerim</a>
+    <a href="#">İletişim</a>
   </div>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
@@ -177,19 +177,37 @@ top: -3px;
     </p>
 </div>
 <hr id="hrclass2">
- <h1 class="h1class2">Becerilerim</h1>
- <center><p style="color:white;">HTML,CSS,Javascript,AngularJs,Asp .Net,Python,Makine Öğrenmesi,Görüntü işleme,SharePoint</p></center>
+ <h1 class="h1class2" id="h1class2">Becerilerim</h1>
+ <center><p style="color:white;">HTML,CSS,Javascript,AngularJs,MySQL,SQL,Asp.Net</p></center>
+ <center><p style="color:white;">Python,Makine Öğrenmesi,Görüntü işleme,SharePoint</p></center>
  <div class="letter">
    
-  <i id="faclass1" class="fa fa-spinner"></i>
+  <i id="faclass1" class="fa fa-gears"></i>
   <p>Responsive web site geliştirmede kendimi geliştirmeye devam etmekteyim.Böylelikle web sitelerini uyumlu yapmayı öğreniyorum.</p>
   <h3>Öznur</h3>
  </div>
- <div class="python">
-  <i id="faclass1" class="fa fa-spinner"></i>
-  <p>Python programlama ile görüntü işleme,metin işleme,veri analizi üzerinde bilgi sahibiyim,projeler yaptım.
+ <hr class="hrclass">
+ <div class="letter">
+  <i id="faclass1" class="fa fa-bar-chart-o"></i>
+  <p>Python programlama dili ile görüntü işleme,metin işleme,veri analizi üzerinde bilgi sahibiyim,projeler yaptım.
   </p>
+  <h3>Öznur</h3>
  </div>
+ <hr class="hrclass">
+ <div class="letter">
+  <i id="faclass1" class="fa fa-laptop"></i>
+  <p>Masaüstü programlama için C#,MySQL ile otomasyon programlamaları geliştirdim.
+  </p>
+  <h3>Öznur</h3>
+ </div>
+ <hr>
+ <div>
+ <h1 class="h1class2" id="h1class3">Hedeflerim</h1>
+ <p class="p1class">Junior Software Developer olarak yazılım alanında teknoloji ile beraber
+   kendimi geliştirmek ve bu sayede yazılıma yeni başlamayı düşünen insanlara yol göstermek,
+   öğretmek..
+ </p>
+</div>
 
 
 <script>
