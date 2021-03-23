@@ -18,6 +18,8 @@ html {
   background-repeat: none;
   background-size: 100%;
   background-position:fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .overlay {
@@ -61,7 +63,7 @@ html {
 }
 
 
-@media screen and  (max-width: 600px) and (min-width: 300px) {
+@media screen and  (max-width: 800px) and (min-width: 300px) {
 html{
         
     background: url(astronott.jpg) no-repeat center center fixed;
@@ -69,8 +71,11 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 
     }
+    
     .overlay{width: 100%;}
   .overlay a {font-size: 40px}
   .overlay .closebtn {
@@ -84,9 +89,9 @@ html{
   .imgclass{width: 80%;height: 70%;border-radius: 20px;position:relative;margin-left:10%}
   .h1class{color:white;margin-left:30%;}
   .h2class{ color:white;margin-left:30%}
-  .p1class{color:white;}
+  .p1class{color:white;font-size:140%;font-weight: auto;}
   .p1class:hover{background-color: rgba(255,255,255,0.3);font-weight: bolder;outline-style: groove;}
-  .hrclass2{padding:10%;}
+  #hrclass2{margin-left:10%}
   .h1class2{color:white;margin-left:25%;}
   #faclass1{font-size:100px}
   H3 {
@@ -100,7 +105,7 @@ html{
     box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 300px 25px rgba(222,198,122,0.3) inset;
     width: 70%;
     height: 10%;
-    margin-left:10%;
+    margin-left:15%;
     position: relative;
 }
 
@@ -164,14 +169,15 @@ top: -3px;
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
 <div>
     <h1 class="h1class">Hakkımda</h1>
-    <hr class="hrclass">
+    
     <img src="oznurkaraburun.jpeg" class="imgclass">
 </div>
 
-<div >
+<div style="overflow-x: hidden;width: 400px;">
     <h2 class="h2class">Beni Tanıyın..</h2>
     <p class="p1class">Merhaba,ben Öznur Karaburun.1997 İstanbul doğumluyum.Lise hayatımdan beri teknoloji ile iç içeyim.
-        Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği mezunuyum.Yeni teknolojileri denemeyi,deneyimlemeyi,öğrenmeyi seviyorum.
+        Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği mezunuyum.Yeni teknolojileri denemeyi,deneyimlemeyi,öğrenmeyi
+         seviyorum.
     </p>
 </div>
 <hr id="hrclass2">
