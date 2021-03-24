@@ -90,12 +90,15 @@ html{
   .hrclass{
     size: 25%;width: 25%; margin-left:38%; background-color:mediumpurple" noshade="none"
   }
+  .hrclass2{size: 25%;width: 25%; margin-left:38%; background-color:mediumpurple" noshade="none"
+  }
   .imgclass{width: 80%;height: 70%;border-radius: 20px;position:relative;margin-left:10%}
   .h1class{color:white;margin-left:30%;}
   .h2class{ color:white;margin-left:30%}
-  .p1class{color:white;font-size:20px;overflow-x: hidden;}
+  .p1class{font-size:20px;overflow-x: hidden;}
   #hrclass2{margin-left:10%}
-  .h1class2{color:white;margin-left:25%;}
+  .h1class2{color:white;margin-left:25%;overflow-x:hidden;}
+  .h1class4{color:white;margin-left:35%;overflow-x:hidden;}
   #faclass1{font-size:100px}
   H3 {
     margin: 45px 0 0;
@@ -106,9 +109,8 @@ html{
 .letter {
     background: #fafafa;
     box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 300px 25px rgba(222,198,122,0.3) inset;
-    width: 70%;
+    width: 100%;
     height: 10%;
-    margin-left:15%;
     position: relative;
 }
 
@@ -150,6 +152,27 @@ border-width: 0px 0px 0px 1px;
 right: 3px;
 top: -3px;
 }
+.content-box{
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+.content-box p{
+  transition: all 0.5s;
+  color:white;
+ 
+}
+.content-box:hover{
+  background-color: rgba(250, 250, 250, 1);
+}
+.content-box:hover p{
+  color:black;
+}
+
+
+  
+
 
   
 }
@@ -163,62 +186,83 @@ top: -3px;
     <img class="pic" src="öznurr.jpeg" style="border-radius: 50%; width: 120px;height: 120px; margin-top:-50px;"/>
     <p style="color:white">ÖZNUR KARABURUN</p>
     <p style="color:white">Junior Software Engineer</p>
-    <a href="#h1class">Hakkımda</a>
+    <a href="#h1class"><i class="fa fa home"></i>Hakkımda</a>
     <a href="#h1class2">Becerilerim</a>
     <a href="#h1class3">Hedeflerim</a>
     <a href="#">İletişim</a>
   </div>
 </div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">➤ MENU</span>
 <div>
     <h1 class="h1class">Hakkımda</h1>
     
     <img src="oznurkaraburun.jpeg" class="imgclass">
 </div>
-
+<div class="content-main">
 <div style="overflow-x: hidden;">
     <h2 class="h2class">Beni Tanıyın..</h2>
+    <div class="content-box">
     <p class="p1class">Merhaba,ben Öznur Karaburun.1997 İstanbul doğumluyum.Lise hayatımdan beri teknoloji ile iç içeyim.
         Kocaeli Üniversitesi Bilişim Sistemleri Mühendisliği mezunuyum.Yeni teknolojileri denemeyi,deneyimlemeyi,öğrenmeyi
          seviyorum.
     </p>
 </div>
-<hr id="hrclass2">
+</div>
+</div>
+<hr>
  <h1 class="h1class2" id="h1class2">Becerilerim</h1>
- <center><p style="color:white;">HTML,CSS,Javascript,AngularJs,MySQL,SQL,Asp.Net</p></center>
+ <center><p style="color:white;">HTML,CSS,Javascript,AngularJs,SQL,ASP.Net</p></center>
  <center><p style="color:white;">Python,Makine Öğrenmesi,Görüntü işleme,SharePoint</p></center>
  <div class="letter">
-   
-  <i id="faclass1" class="fa fa-gears"></i>
+   <i id="faclass1" class="fa fa-gears"></i>
   <p>Responsive web site geliştirmede kendimi geliştirmeye devam etmekteyim.Böylelikle web sitelerini uyumlu yapmayı öğreniyorum.</p>
-  <h3>Öznur</h3>
+  <h3>꧂</h3>
  </div>
  <hr class="hrclass">
  <div class="letter">
   <i id="faclass1" class="fa fa-bar-chart-o"></i>
   <p>Python programlama dili ile görüntü işleme,metin işleme,veri analizi üzerinde bilgi sahibiyim,projeler yaptım.
   </p>
-  <h3>Öznur</h3>
+  <h3>꧂</h3>
  </div>
  <hr class="hrclass">
  <div class="letter">
   <i id="faclass1" class="fa fa-laptop"></i>
   <p>Masaüstü programlama için C#,MySQL ile otomasyon programlamaları geliştirdim.
   </p>
-  <h3>Öznur</h3>
+  <h3>꧂</h3>
  </div>
  <hr>
  <div>
  <h1 class="h1class2" id="h1class3">Hedeflerim</h1>
+ <div class="content-box">
  <p class="p1class">Junior Software Developer olarak yazılım alanında teknoloji ile beraber
    kendimi geliştirmek ve bu sayede yazılıma yeni başlamayı düşünen insanlara yol göstermek,
    öğretmek..
  </p>
+ </div>
+ <div>
+   <img src="hedef.PNG">
+ </div>
 </div>
 <hr>
 <div>
-  <h1 class="h1class2" id="h1class4">İletişim</h1>
-  <h2 style="color:white">Aşsağıdaki bilgiler üzerinden bana ulaşabilirsiniz :)</h2>
+  <h1 class="h1class4" id="h1class4">İletişim</h1>
+  <div class="content-box">
+  <h2>Aşsağıdaki bilgiler üzerinden bana ulaşabilirsiniz✔</h2>
+  <a href="#"><span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-envelope fa-stack-1x"></i>
+  </span>oznurr03@hotmail.com</a>
+  <a href="#"><span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-instagram fa-stack-1x"></i>
+  </span></a><br>
+  <a href="#"><span class="fa-stack fa-lg">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-linkedin fa-stack-1x"></i>
+  </span></a>
+  </div>
   
 </div>
 
